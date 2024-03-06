@@ -9,16 +9,16 @@
 -----------------------------
 -- DECLARING VARIABLES
 
-do
-$$
-declare
-	claims_count integer;
-begin
-	select count(*) into claims_count
-	from t_claims;
-	raise notice 'The number of claims is: %', claims_count;
-end;
-$$;
+# do
+# $$
+# declare
+# 	claims_count integer;
+# begin
+# 	select count(*) into claims_count
+# 	from t_claims;
+# 	raise notice 'The number of claims is: %', claims_count;
+# end;
+# $$;
 
 
 -- create function find_member_by_acct(
